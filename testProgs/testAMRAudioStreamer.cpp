@@ -23,7 +23,7 @@ along with this library; if not, write to the Free Software Foundation, Inc.,
 #include "GroupsockHelper.hh"
 
 UsageEnvironment* env;
-char const* inputFileName = "/tmp/fifo.amr";
+char const* inputFileName = "/tmp/fifo.amr";/*Sean modified */
 AMRAudioFileSource* audioSource;
 RTPSink* audioSink;
 

@@ -36,7 +36,7 @@ Boolean iFramesOnly = False;
 static void announceStream(RTSPServer* rtspServer, ServerMediaSession* sms,
 			   char const* streamName, char const* inputFileName); // fwd
 
-//add 2012/11/13 by yjc, add rtsp audio port
+//Sean add 2012/11/13 by yjc, add rtsp audio port
 #define PROTO_CONFIG_FILE       ("/etc/ambaipcam/mediaserver/proto.cfg")
 #define DEFAULT_RTSP_AUDIO_PORT        (30004)
 

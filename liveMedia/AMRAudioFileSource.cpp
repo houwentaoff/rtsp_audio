@@ -38,6 +38,7 @@ AMRAudioFileSource::createNew(UsageEnvironment& env, char const* fileName) {
     magicNumberOK = False; // until we learn otherwise
     Boolean isWideband = False; // by default
     unsigned numChannels = 1; // by default
+ /* :TODO:2014/9/29 16:12:07:Sean: close orgin is open*/
 #if 0
     char buf[100];
 	//STEP OVER THE AMR HEADER PARSE
@@ -72,6 +73,7 @@ AMRAudioFileSource::createNew(UsageEnvironment& env, char const* fileName) {
 
     // If we get here, the magic number was OK:
 #endif
+ /* :TODO:End---  */
     magicNumberOK = True;
 
 #ifdef DEBUG

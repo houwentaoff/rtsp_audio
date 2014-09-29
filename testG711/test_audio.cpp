@@ -525,7 +525,7 @@ int main(int argc, char** argv) {
 #endif
 
   //add 2012/11/13 by yjc, add rtsp audio port
-  int rtsp_audio_port = get_rtsp_audio_port_from_cfg(PROTO_CONFIG_FILE);
+  int rtsp_audio_port = 8554;//get_rtsp_audio_port_from_cfg(PROTO_CONFIG_FILE);
   // Create the RTSP server:
   RTSPServer* rtspServer = RTSPServer::createNew(*env, rtsp_audio_port, authDB);
   if (rtspServer == NULL) {
